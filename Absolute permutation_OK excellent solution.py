@@ -2,7 +2,7 @@
 """
 Created on Sat Jun 26 15:08:47 2021
 
-@author: Compaq
+@author: Edgar
 """
 
 n=8
