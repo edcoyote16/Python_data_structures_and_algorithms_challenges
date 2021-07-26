@@ -1,7 +1,7 @@
 from itertools import combinations
 n = 4
-k = 3
-S = [1, 7, 2, 4]
+k = 7
+S = [278, 576, 496, 727, 410, 124, 338, 149, 209, 702, 282, 718, 771, 575, 436]
 list_=combinations(S, 2)
 list_=list(list_)
 results=[]
