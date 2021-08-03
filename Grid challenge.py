@@ -15,8 +15,8 @@ for index_a, a in enumerate(range(length)):
 grid_vertically_whole2=grid_vertically_whole[::]
 grid_vertically_whole2=[sorted(n) for n in grid_vertically_whole2]
 if grid_vertically_whole2==grid_vertically_whole:
-    check='Yes'
+    check='YES'
 else:
-    check='No'
+    check='NO'
 
 print(check)
