@@ -14,7 +14,7 @@ def findNumber(array, start, end, value):
     if value >= array[mid] and value <= array[end]:
         return findNumber(array, mid + 1, end, value)
     return findNumber(array, start, mid - 1, value)
-print(findNumber([5, 6, 7, 8, 9, 10, 1, 2, 3], 0, 8, 10))
+print(findNumber([5, 6, 7, 8, 9, 10, 1, 2, 3], 0, 8, 1))
 
 # ok for all test cases required
 # class Test(unittest.TestCase):
