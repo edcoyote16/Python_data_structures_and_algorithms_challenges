@@ -46,7 +46,7 @@ def kDistantFromLeafUtil(node, path, visited, pathLen, k, results):
                          visited, pathLen, k, results)
     kDistantFromLeafUtil(node.right, path,
                          visited, pathLen, k, results)
-    return results
+    return
 
 root = Node(3)
 root.left = Node(8)
